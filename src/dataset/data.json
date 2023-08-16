@@ -1,0 +1,43 @@
+{
+    "languages" : [
+        {
+            "id" : 1,
+            "language" : "Python",
+            "description" : "Very simple and easy to learn",
+            "price" : "$350",
+            "available" : "currently available"
+        },
+
+        {
+            "id" : 2,
+            "language" : "React",
+            "description" : "Creat single page applications with ease",
+            "price" : "$170",
+            "available" : "currently available"
+        },
+
+        {
+            "id" : 3,
+            "language" : "Java",
+            "description" : "Creat mobile application from scratch",
+            "price" : "$250",
+            "available" : "currently not available"
+        },
+
+        {
+            "id" : 4,
+            "language" : "Ruby",
+            "description" : "Very simple and easy to learn",
+            "price" : "$100",
+            "available" : "currently not available"
+        },
+
+        {
+            "id" : 5,
+            "language" : "Angular",
+            "description" : " A complete web frame work easy to learn",
+            "price" : "$150",
+            "available" : "currently available"
+        }
+    ]
+}

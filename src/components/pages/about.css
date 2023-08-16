@@ -1,0 +1,42 @@
+.container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 9% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+header {
+    font-size: 50px;
+    font-weight: 300;
+    text-decoration: underline;
+
+}
+
+.text {
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.media {
+    display: flex;
+}
+
+.media span {
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: brown;
+    transition: .3s ease-out;
+}
+
+.media span:hover {
+    transform: translateY(-3px);
+    color: black;
+}

@@ -1,0 +1,102 @@
+.navbar {
+    position: relative;
+    background-color: brown;
+    padding: 2px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: .10s ease-in-out;
+}
+
+.active {
+    position: relative;
+    background-color: brown;
+    padding: 2px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+    transition: .3s ease-in-out;
+}
+
+
+.logo {
+    font-weight: 300;
+    letter-spacing: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    font-size: 2.5 em;
+    font-weight: 200;
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    
+}
+
+.navigation a.active {
+    background: white;
+    color: black;
+}
+
+
+.menubtn {
+    position: absolute;
+    right: 5%;
+    border: 2px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: black;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+@media all and (max-width: 660px){
+    /* .navigation {
+        position: absolute;
+        display: none;
+        transition: .3s ease-in-out;
+    } */
+    .navigation {
+       position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 110%;
+        left: 0;
+        width: 100%;
+        height: 40vh;
+        background: linear-gradient(90deg, transparent, brown, transparent );
+        z-index: 1;
+       
+    }
+
+    .navigation a {
+        margin-top: 20px;
+    }
+
+    .menubtn {
+        display: inline-flex;
+    }
+
+    
+    
+}
